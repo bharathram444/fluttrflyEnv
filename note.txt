@@ -1,0 +1,5 @@
+🚨  Important: Do not modify the structure of the environment or move it! 🚨
+🚨  Avoid moving or deleting folders within the environment. 🚨
+🚨  Avoid changing branches manually within the environment. 🚨
+🚨  Any unauthorized changes may lead to fluttrfly malfunction. 🚨
+✨  Happy coding with fluttrfly ✨
