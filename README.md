@@ -13,8 +13,8 @@ If you've created creative and useful widgets or utilities that can benefit the 
 1. Fork the repository.
 2. Create a new branch for your widget or utility.
 3. Implement your creative idea and provide clear documentation.
-4. Add your widgets to [FluttrFlyEnv/widgets](https://github.com/bharathram444/fluttrflyEnv/tree/main/assets/flutter_things/lib/core/widgets).
-5. Add your utilities to [FluttrFlyEnv/utils](https://github.com/bharathram444/fluttrflyEnv/tree/main/assets/flutter_things/lib/core/utils).
+4. Add your widgets to [FluttrFlyEnv/widgets](https://github.com/bharathram444/fluttrflyEnv/tree/main/env/assets/flutter_things/lib/core/widgets).
+5. Add your utilities to [FluttrFlyEnv/utils](https://github.com/bharathram444/fluttrflyEnv/tree/main/env/assets/flutter_things/lib/core/utils).
 6. Push your changes to your fork.
 7. Submit a pull request to the main repository.
 
