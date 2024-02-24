@@ -1,1 +1,1 @@
-New fluttrfly 1.1.0 version is released.Use - 'pip install --upgrade fluttrfly' to update.
+
