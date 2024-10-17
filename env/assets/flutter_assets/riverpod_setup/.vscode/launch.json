@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "riverpod_setup",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "riverpod_setup (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "riverpod_setup (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "fluttrfly",
+            "cwd": "packages/fluttrfly",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "fluttrfly (profile mode)",
+            "cwd": "packages/fluttrfly",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fluttrfly (release mode)",
+            "cwd": "packages/fluttrfly",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

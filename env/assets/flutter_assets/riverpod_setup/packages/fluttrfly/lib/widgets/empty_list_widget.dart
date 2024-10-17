@@ -23,7 +23,6 @@ class EmptyDataWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // i store this svg in fluttrfly env repo and get url of that image and past here [or] create one assert here .
           SvgPicture.asset(IconX.emptySearch.path, height: 120, width: 120),
           Text(emptyText, style: context.textTheme.titleMedium),
           if (onRefresh.isNotNull)

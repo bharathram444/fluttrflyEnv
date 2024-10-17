@@ -64,7 +64,6 @@ class StaticColors {
   final custom = const Color(0xFF707070);
   final defaultTextColor = const Color(0xFF707070);
 
-
   // 100 shades of gray
   final grey = const Color(0xff808080);
   final grey50 = const Color(0xFFFAFAFA);
@@ -110,6 +109,8 @@ class ModeSwitchColors {
   Color greyTransparent80(BuildContext c) => const Color(0x80767676);
 
 // background 6
+  Color whiteSwNero(BuildContext c) =>
+      cFunS.ldcs(c, sc.whiteS, sc.nero);
   Color appBackground(BuildContext c) =>
       cFunS.ldcs(c, const Color(0xF6FFFFFF), sc.grey900);
   Color? containerColor(BuildContext c) => cFunS.ldcs(

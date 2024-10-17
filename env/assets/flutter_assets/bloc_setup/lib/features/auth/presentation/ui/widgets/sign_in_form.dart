@@ -14,8 +14,8 @@ class SignInForm extends StatefulWidget {
 }
 
 class _SignInFormState extends State<SignInForm> {
-  final username = TextEditingController(text: ''); // Administrator
-  final password = TextEditingController(text: ''); // Axiom@1811321
+  final username = TextEditingController(text: '');
+  final password = TextEditingController(text: '');
   @override
   Widget build(BuildContext context) {
     return Center(

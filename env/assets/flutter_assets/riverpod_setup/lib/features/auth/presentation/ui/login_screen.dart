@@ -14,8 +14,8 @@ class LoginScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final userIdController = TextEditingController(text: 'Administrator'); //Administrator
-    final passwordController = TextEditingController(text: 'Axiom@1811321'); //Axiom@1811321
+    final userIdController = TextEditingController(text: '');
+    final passwordController = TextEditingController(text: '');
     ref.listen(logInProvider, (_, next) {
       next.showAlertDialogOnError(context);
       next.maybeWhen(

@@ -23,8 +23,8 @@ class IconX {
   }
 
   // Empty Data illustration
-  static const emptySearch = IconX('assets/svg/empty_search.svg');
-  static const info = IconX('assets/png/info.png');
+  static const emptySearch = IconX('assets/images/empty_search.svg');
+  static const info = IconX('assets/images/info.png');
   // This like we have to get urls from git and show to users || or we have to add this image in user assert
-  static const exUrl = IconX('https://raw.githubusercontent.com/bharathram444/fluttrfly/refs/heads/main/image/dark.png');
+  // static const exUrl = IconX('https://raw.githubusercontent.com/bharathram444/fluttrfly/refs/heads/main/image/dark.png');
 }

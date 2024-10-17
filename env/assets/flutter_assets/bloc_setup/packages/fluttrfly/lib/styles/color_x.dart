@@ -110,6 +110,8 @@ class ModeSwitchColors {
   Color greyTransparent80(BuildContext c) => const Color(0x80767676);
 
 // background 6
+  Color whiteSwNero(BuildContext c) =>
+      cFunS.ldcs(c, sc.whiteS, sc.nero);
   Color appBackground(BuildContext c) =>
       cFunS.ldcs(c, const Color(0xF6FFFFFF), sc.grey900);
   Color? containerColor(BuildContext c) => cFunS.ldcs(

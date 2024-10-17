@@ -2,7 +2,6 @@ import 'package:fluttrfly/fluttrfly.dart';
 import 'package:fluttrfly/widgets/dialogs/dialog_widget.dart';
 import 'package:flutter/material.dart';
 
-
 class ConfirmDialogWidget extends StatelessWidget {
   const ConfirmDialogWidget({
     super.key,
@@ -23,7 +22,6 @@ class ConfirmDialogWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ThemeData theme = Theme.of(context);
     return Align(
       alignment: Alignment.center,
       child: Material(
@@ -33,7 +31,7 @@ class ConfirmDialogWidget extends StatelessWidget {
           margin: const EdgeInsets.all(24),
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: theme.dialogBackgroundColor,
+            color: ColorX.instance.ms.whiteSwNero(context),
             borderRadius: BorderRadius.circular(15),
           ),
           child: Column(
@@ -50,24 +48,16 @@ class ConfirmDialogWidget extends StatelessWidget {
               if (title != null)
                 Text(
                   title ?? '',
-                  style: const TextStyle(
-                    fontSize: 24,
-                    height: 1.2,
-                    fontWeight: FontWeight.w600,
-                  ),
+                  style: TextStyles.h4(context),
                   textAlign: TextAlign.center,
                 ),
               if (title != null) const SizedBox(height: 5),
               Text(
                 message,
-                style: const TextStyle(
-                  height: 1.5,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w400,
-                ),
+                style: TextStyles.h8(context),
                 textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 30),
+              gapH32,
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -80,7 +70,7 @@ class ConfirmDialogWidget extends StatelessWidget {
                       bgColor: Colors.white,
                     ),
                   ),
-                  const SizedBox(width: 24),
+                  gapW24,
                   Expanded(
                     flex: 1,
                     child: PanaraButton(
@@ -98,3 +88,4 @@ class ConfirmDialogWidget extends StatelessWidget {
     );
   }
 }
+
