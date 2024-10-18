@@ -37,8 +37,4 @@ dev_dependencies:
 
 
 flutter:
-  assets: 
-    - assets/
-    - assets/svg/
-    - assets/png/
   uses-material-design: true
